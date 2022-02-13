@@ -16,7 +16,7 @@ appenders:
         kind: fixed_window
         base: 1
         count: 10
-        pattern: "log/cloud-websocket-server-{}.log"
+        pattern: "log/mini-rabbit-{}.log"
 root:
   level: info
   appenders:
